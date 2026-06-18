@@ -83,8 +83,8 @@ export default function HomePage() {
       <section className="section" id="services">
         <div className="container">
           <div className="section-head">
-            <h2>Services from the card.</h2>
-            <p className="section-lede">This demo uses the exact service mix shown on the Phelps Rapid Renovations LLC business card, organized so a homeowner can quickly understand what to call for.</p>
+            <h2>Repair and renovation services.</h2>
+            <p className="section-lede">From repairs and plumbing to remodeling and cleanup, the service mix is organized so a homeowner can quickly understand what to call for.</p>
           </div>
           <div className="grid services">
             {services.map(({ title, copy, Icon }) => (
@@ -132,7 +132,7 @@ export default function HomePage() {
             <input className="input" name="service" placeholder="What do you need help with?" />
             <textarea className="input" name="details" placeholder="Tell us about the repair, remodel, cleanup, or service request" rows={5} />
             <button className="btn primary" type="submit"><Truck size={18} />&nbsp; Request Service</button>
-            <p className="small">This demo routes requests to the real email shown on the business card.</p>
+            <p className="small">Service requests open an email draft to Phelps Rapid Renovations LLC.</p>
           </form>
         </div>
       </section>
